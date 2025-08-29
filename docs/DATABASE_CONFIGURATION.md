@@ -1,6 +1,6 @@
 # Database Configuration for IntelliRouter
 
-## Why Do We Need Database Configuration?
+## Why Do We Need Database Configuration ?
 
 IntelliRouter requires database configuration for several critical functions that make it production-ready and scalable. Here's why:
 
