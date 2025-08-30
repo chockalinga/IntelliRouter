@@ -75,7 +75,7 @@ import openai
 # Point to your IntelliRouter instance
 client = openai.OpenAI(
     base_url="http://localhost:8000/v1",
-    api_key="your-api-key"  # Optional for demo
+    api_key="your-api-key"
 )
 
 response = client.chat.completions.create(
@@ -460,18 +460,6 @@ uvicorn src.intellirouter.api.app:create_app --factory --host 0.0.0.0 --port 800
 - Rate limiting (configurable)
 - Configurable CORS policies
 - Secure provider credential management
-
-## 🆕 What's New
-
-### Latest Updates
-- ✅ **LangGraph Integration**: Complete integration with modern LangGraph API (v0.6.6)
-- ✅ **Multi-Agent Workflows**: Support for complex agent orchestration with per-agent routing
-- ✅ **Adaptive Routing**: Dynamic complexity-based model selection
-- ✅ **Cost Analytics**: Real-time cost tracking and comparison across strategies
-- ✅ **AWS Bedrock Support**: Native support for Claude models via AWS Bedrock
-- ✅ **Enhanced Examples**: Comprehensive examples showing all capabilities
-
-## 📄 License
 
 This project is provided as-is for educational and development purposes.
 
